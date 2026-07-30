@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="0–24 Autómentés és Professzionális Autószerviz. Gyors segítség az ország egész területén és teljes körű javítás Gyálon." />
+  <title>R.A. Auto Service & Autómentés</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="preload" href="./assets/web1.jpeg" as="image">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Fixed Sticky Header -->
+    <header id="fixed-header" class="fixed-header">
+      <div class="header-inner">
+        <a href="#" class="logo">
+          <span class="logo-accent">R.A.</span> AUTO
+        </a>
+        <nav class="desktop-nav">
+          <a href="#hero">Kezdőlap</a>
+          <a href="#about">Rólam</a>
+          <a href="#towing">Autómentés</a>
+          <a href="#service">Autószerviz</a>
+          <a href="#contact">Kapcsolat</a>
+        </nav>
+        <a href="tel:+36205140344" class="btn btn-outline header-btn">
+          Hívás Most
+        </a>
+        <button class="mobile-toggle" aria-label="Menü megnyitása">
+          <i class="ph ph-list"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Wrapper -->
+      <section id="hero" class="hero-wrapper">
+        <div class="hero-slider">
+          <div class="slide active" style="background-image: url('./assets/web1.jpeg');"></div>
+          <div class="slide" style="background-image: url('./assets/web2.jpeg');"></div>
+          <div class="slide" style="background-image: url('./assets/web3.jpeg');"></div>
+          <div class="slide" style="background-image: url('./assets/web4.jpeg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-container">
+          <!-- Main Header -->
+          <header class="main-header">
+            <a href="#" class="logo">
+              <span class="logo-accent">R.A.</span> AUTO
+            </a>
+            <nav class="desktop-nav">
+              <a href="#hero">Kezdőlap</a>
+              <a href="#about">Rólam</a>
+              <a href="#towing">Autómentés</a>
+              <a href="#service">Autószerviz</a>
+              <a href="#contact">Kapcsolat</a>
+            </nav>
+            <a href="tel:+36205140344" class="btn btn-outline header-btn">
+              Hívás Most
+            </a>
+            <button class="mobile-toggle" aria-label="Menü megnyitása">
+              <i class="ph ph-list"></i>
+            </button>
+          </header>
+
+          <div class="hero-content-inner">
+            <div class="hero-main-split">
+              <div class="hero-left">
+                <div class="location-tag"><i class="ph-fill ph-map-pin"></i> Pest Megye & Országosan</div>
+                <h1 class="hero-title">Azonnali <span class="text-accent">Mentés</span> és Precíz <span class="text-accent">Szerviz</span></h1>
+                <p class="hero-subtitle">0-24 autómentés az ország egész területén, és professzionális autószerviz Gyálon. Mi nem csak hazavisszük, meg is javítjuk!</p>
+                <div class="hero-buttons">
+                  <a href="tel:+36205140344" class="btn btn-primary btn-large">
+                    <i class="ph-fill ph-siren"></i> Mentést Kérek
+                  </a>
+                  <a href="#service" class="btn btn-icon btn-large">
+                    <i class="ph-fill ph-play-circle"></i> Szolgáltatások
+                  </a>
+                </div>
+              </div>
+              
+              <div class="hero-right">
+                <div class="preview-cards">
+                  <div class="preview-card" style="background-image: url('./assets/web1.jpeg')">
+                    <div class="preview-info"><i class="ph-fill ph-truck"></i> Autómentés</div>
+                  </div>
+                  <div class="preview-card preview-card-small" style="background-image: url('./assets/web2.jpeg')">
+                    <div class="preview-info"><i class="ph-fill ph-wrench"></i> Autószerviz</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-footer-split">
+              <div class="hero-footer-left">
+                <div class="info-box">
+                  <strong>0-24 Elérhetőség</strong>
+                  <span>Azonnali indulás</span>
+                </div>
+                <div class="info-box">
+                  <strong>Teljes Körű</strong>
+                  <span>Mentés és Javítás</span>
+                </div>
+              </div>
+              <div class="hero-footer-right social-links-hero">
+                <a href="https://www.facebook.com/RAautoservice1" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+                <a href="#" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- About Section (Unusual Layout) -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text fade-up">
+            <h2 class="about-title">Nem csupán <span class="text-accent">Munka.</span><br>Felelősség.</h2>
+            <p class="about-desc">
+              <strong>Romhányi András vagyok, az Országosautómentés alapítója.</strong> Több éves tapasztalattal foglalkozom járművek mentésével és szállításával, legyen szó műszaki meghibásodásról, balesetről vagy egyszerű szállítási igényről.
+            </p>
+            <p class="about-desc">
+              Számomra az autómentés nem csupán munka, hanem felelősség. Tudom, milyen stresszes helyzetet jelent, amikor az autó cserbenhagy, ezért minden esetben a gyors és precíz segítségnyújtásra törekszem.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-num text-accent">0-24</span>
+                <span class="stat-label">Elérhetőség</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num text-accent">100%</span>
+                <span class="stat-label">Megbízhatóság</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual fade-up">
+            <div class="visual-card visual-card-1" style="background-image: url('./assets/web6.jpeg')"></div>
+            <div class="visual-card visual-card-2" style="background-image: url('./assets/web3.jpeg')"></div>
+            <div class="visual-badge">
+              Rólam
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Towing Services Section -->
+    <section id="towing" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">0-24 <span class="text-accent">Autómentés</span></h2>
+          <p class="section-subtitle">Azonnali segítség bárhol az országban. Nem hagyjuk cserben!</p>
+        </div>
+        <div class="grid cards-grid">
+          <!-- Card 1 -->
+          <div class="card fade-up">
+            <i class="ph-fill ph-lifebuoy card-icon"></i>
+            <h3>Csörlős Autómentés</h3>
+            <p>Elakadt, mozgásképtelen vagy árokba csúszott járművek szakszerű mentése csörlővel, gyors kiszállással.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-truck card-icon"></i>
+            <h3>Autószállítás</h3>
+            <p>Személyautók biztonságos szállítása rövid és hosszú távon, az ország egész területén.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-warning card-icon"></i>
+            <h3>Sérült Autók</h3>
+            <p>Balesetes, sérült vagy műszakilag hibás járművek szakszerű elszállítása szervizbe vagy telephelyre.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-motorcycle card-icon"></i>
+            <h3>Motorok & Quadok</h3>
+            <p>Motorok, robogók és quadok rögzített, biztonságos szállítása, sérülésmentesen.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-package card-icon"></i>
+            <h3>Raklapos Áruk</h3>
+            <p>Raklapos áruk, gépek és egyéb nagyobb tárgyak szállítása megbízhatóan, gyors ügyintézéssel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Auto Service Section -->
+    <section id="service" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Professzionális <span class="text-accent">Autószerviz</span></h2>
+          <p class="section-subtitle">Mentés utáni azonnali javítási lehetőség saját gyáli szervizünkben.</p>
+        </div>
+        <div class="grid cards-grid">
+          <div class="card">
+            <i class="ph-fill ph-wrench card-icon"></i>
+            <h3>Karosszéria Javítás</h3>
+            <p>Horpadások, törések, fényezési hibák szakszerű javítása rövid határidővel.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-engine card-icon"></i>
+            <h3>Általános Szervizelés</h3>
+            <p>Olajcsere, fékjavítás, futómű beállítás és minden egyéb karbantartási munka.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-wind card-icon"></i>
+            <h3>Klímatisztítás</h3>
+            <p>Ózonos klímatisztítás a kórokozók, baktériumok és kellemetlen szagok ellen.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-laptop card-icon"></i>
+            <h3>Diagnosztika</h3>
+            <p>Modern számítógépes hibakód olvasás és teljes körű gépjármű diagnosztika.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-pipe card-icon"></i>
+            <h3>Kipufogó Javítás</h3>
+            <p>Sérült, lyukas kipufogórendszerek javítása, hegesztése vagy teljes cseréje.</p>
+          </div>
+          <div class="card">
+            <i class="ph-fill ph-clipboard-text card-icon"></i>
+            <h3>Műszaki Felkészítés</h3>
+            <p>Gépjárművek teljes körű átvizsgálása és felkészítése a sikeres műszaki vizsgára.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section">
+      <div class="container">
+        <div class="split-layout">
+          <div class="split-content">
+            <h2 class="section-title">Miért Minket <span class="text-accent">Válassz?</span></h2>
+            <ul class="features-list">
+              <li>
+                <i class="ph-fill ph-clock"></i>
+                <div>
+                  <h4>0-24 Elérhetőség</h4>
+                  <p>Országosan éjjel-nappal hívható autómentés, mindennap, hétvégén és ünnepeken is.</p>
+                </div>
+              </li>
+              <li>
+                <i class="ph-fill ph-lightning"></i>
+                <div>
+                  <h4>Gyors Kiszállás</h4>
+                  <p>Hívásod után a lehető legrövidebb időn belül indulunk a helyszínre.</p>
+                </div>
+              </li>
+              <li>
+                <i class="ph-fill ph-check-circle"></i>
+                <div>
+                  <h4>Mentés és Szerviz Egyben</h4>
+                  <p>A legnagyobb előnyünk: az elszállítás után igény esetén szakszerű javítást biztosítunk, így nem kell külön szerelőt keresned.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="split-image" style="background-image: url('./assets/web5.jpeg'); background-position: right;">
+            <!-- Decorational image from hero bg or another generated asset -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Néhány <span class="text-accent">Munkánk</span></h2>
+          <p class="section-subtitle">Pillantson be a mindennapjainkba! Autómentés és szervizelés akció közben.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item fade-up"><img src="./assets/web1.jpeg" alt="Autómentés munka közben" loading="lazy"></div>
+          <div class="gallery-item fade-up"><img src="./assets/web2.jpeg" alt="Autómentés" loading="lazy"></div>
+          <div class="gallery-item fade-up"><img src="./assets/web3.jpeg" alt="Szerviz" loading="lazy"></div>
+          <div class="gallery-item fade-up"><img src="./assets/web4.jpeg" alt="Traileres szállítás" loading="lazy"></div>
+          <div class="gallery-item fade-up"><img src="./assets/web5.jpeg" alt="Műszaki mentés" loading="lazy"></div>
+          <div class="gallery-item fade-up"><img src="./assets/web6.jpeg" alt="Balesetes autó mentése" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <h2 class="logo"><span class="logo-accent">R.A.</span> AUTO</h2>
+          <p>Professzionális autómentés és autószerviz.</p>
+          <div class="contact-details">
+            <p><i class="ph-fill ph-phone"></i> <a href="tel:+36205140344">06 20 514 03 44</a></p>
+            <p><i class="ph-fill ph-map-pin"></i> <strong>Autómentés:</strong> Vecsés és Országosan</p>
+            <p><i class="ph-fill ph-map-pin"></i> <strong>Autószerviz:</strong> Gyál</p>
+          </div>
+          <div class="social-links">
+            <a href="https://www.facebook.com/RAautoservice1" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+            <a href="#" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+            <a href="https://www.tiktok.com/@automentes95" target="_blank" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+        <div class="footer-form">
+          <h3>Kérjen Visszahívást</h3>
+          <form class="contact-form">
+            <input type="text" placeholder="Név" required />
+            <input type="tel" placeholder="Telefonszám" required />
+            <textarea placeholder="Üzenet (Opcionális)" rows="3"></textarea>
+            <button type="submit" class="btn btn-primary">Visszahívást Kérek</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 R.A. Auto Service & Országos Autómentés. Minden jog fenntartva.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="#" class="logo">
+        <span class="logo-accent">R.A.</span> AUTO
+      </a>
+      <button class="mobile-close" id="mobile-close" aria-label="Menü bezárása">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#hero">Kezdőlap</a>
+      <a href="#about">Rólam</a>
+      <a href="#towing">Autómentés</a>
+      <a href="#service">Autószerviz</a>
+      <a href="#contact">Kapcsolat</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="tel:+36205140344" class="btn btn-primary">
+        <i class="ph-fill ph-phone-call"></i> 06 20 514 03 44
+      </a>
+      <div class="social-links" style="margin-top: 15px;">
+        <a href="https://www.facebook.com/RAautoservice1" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+        <a href="#" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
